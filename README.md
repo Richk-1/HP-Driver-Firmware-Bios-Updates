@@ -4,6 +4,9 @@ Updates all drivers on HP devices using PSADT 4.1.5
 Requires the workstation to have HPCMSL installed. (HP Client Management Script Library 1.8.2 or later)
 https://www.hp.com/us-en/solutions/client-management-solutions/download.html
 
+Important : You need to drop your password bin file in the files directory with the name Pass.Bin, if you are using HP Sure admin you can comment out the If statement on line 170
+This example adds a scheduled task called 'HP Driver Firmware Bios Updates' that removes the registry key detection rule after 1 hour so the app shows as avaliable again later via company portal.
+
 <img width="725" height="417" alt="image" src="https://github.com/user-attachments/assets/b891497c-6a94-43c2-85da-1d38c6629440" />
 
 <img width="725" height="350" alt="image" src="https://github.com/user-attachments/assets/c1252673-7e63-46b0-a415-7ff896827561" />
