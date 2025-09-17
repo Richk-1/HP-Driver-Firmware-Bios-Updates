@@ -9,7 +9,8 @@ If you are using HP Sure admin you can comment out the If statement on line 170.
 This example adds a scheduled task called 'HP Driver Firmware Bios Updates' that removes the registry key detection rule after 1 hour so the app shows as avaliable again later via company portal.
 
 This is using PSADT 4.1.5 which no longer requires serviceui.exe to be interactive.
-Commandline for install is : Invoke-AppDeployToolkit.exe Install Interactive
+Commandline for install is:
+Invoke-AppDeployToolkit.exe Install Interactive
 
 
 <img width="725" height="417" alt="image" src="https://github.com/user-attachments/assets/b891497c-6a94-43c2-85da-1d38c6629440" />
